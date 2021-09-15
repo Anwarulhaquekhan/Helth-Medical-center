@@ -49,7 +49,7 @@ $(document).ready(function () {
 
     $("#chat").click(function () {
         window.open(
-            'https://api.whatsapp.com/send?phone=9619089689&text=',
+            'https://api.whatsapp.com/send?phone=+919619089689&text=',
             '_blank'
         );
     });
