@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="assets/js/index.js"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="topbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-10">
+                        <div>
+                            <a href="#" class="grey-color"><span class="fa fa-phone primary-color"></span>&nbsp;+00 123
+                                4455 6666</a>
+                            <span>|</span>
+                            <a href="#" class="grey-color"><span
+                                    class="fa fa-envelope primary-color"></span>&nbsp;mail@example.com</a>
+                        </div>
+                    </div>
+					<div class="col-sm-2">
+						
+					<div id="google_translate_element"></div>
+
+					<script type="text/javascript">
+					function googleTranslateElementInit() {
+					  new google.translate.TranslateElement({pageLanguage: 'en',includedLanguages: 'en,hi'}, 'google_translate_element');
+					}
+					</script>
+
+					<script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+					</div>
+                </div>
+            </div>
+        </div>
+
+
+        <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="#"><span class="primary-color">HimCity</span>-Hospital</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menubar"
+                    aria-controls="menubar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menubar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" id="homeItem">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="aboutusItem" href="#aboutus">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="doctorsItem" href="#doctors">Doctors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contactusItem" href="#contactus">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <div class="image-text bg-image overlay-dark" style="background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(assets/img/bg_image_1.jpg);">
+        <div class="img-text-section">
+            <div class="container text-center">
+                <span class="text-subheader">Let's make your life happier</span>
+                <h1 class="text-header display-4">Healthy Living</h1>
+                <button id="consultBtn" href="#" class="btn btn-primary bg-primary">Let's Consult</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bg-light">
+        <div class="pb-0" id="aboutus">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 py-3">
+                        <h1>Welcome to Your Health <br> Center</h1>
+                        <p class="text-grey mb-4">The pain itself is a lot of pain, it's been sadipscing over the years,
+                            but it is time to envisage that the pain and pain was exciting, but it was exciting. But
+                            they also subsidized both the terminal and the just two pains. The system itself is accusing
+                            them of it, and no one finds it hard to reject it with further consequences. I will explain,
+                            to catch the accusers! Pleasures are like an easy choice!</p>
+                        <a href="about.html" class="btn btn-primary bg-primary">Learn More</a>
+                    </div>
+                    <div class="col-lg-6">
+                        <div>
+                            <img src="assets/img/bg-doctor.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- .bg-light -->
+    </div> <!-- .bg-light -->
+
+
+    <div style="background-color: #e6e3de;" id="doctors">
+        <div class="container">
+            <h1 class="text-center mb-5">Our Doctors</h1>
+
+            <div class="container">
+
+
+                <div id="carouselDoctors" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="img-doctor-card">
+                                <div class="header">
+                                    <img style="width: inherit;" src="assets/img/doctors/doctor_2.jpg" alt="">
+                                </div>
+                                <div class="body">
+                                    <p class="text-xl mb-0">Dr. Pawan Maurya</p>
+                                    <p class="text-sm text-grey">M.B.B.S, M.D., D.M.</p>
+                                    <span class="text-sm text-grey">Neuro & Psychiatrist</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="img-doctor-card">
+                                <div class="header">
+                                    <img style="width: inherit;" src="assets/img/default-user.png" alt="">
+                                </div>
+                                <div class="body">
+                                    <p class="text-xl mb-0">Dr. Tarik Ahsan Khan</p>
+                                    <p class="text-sm text-grey">M.B.B.S, M.D.</p>
+                                    <span class="text-sm text-grey">Pediatrician</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="img-doctor-card">
+                                <div class="header">
+                                    <img style="width: inherit;" src="assets/img/default-user.png" alt="">
+                                </div>
+                                <div class="body">
+                                    <p class="text-xl mb-0">Dr. R.K. Chaudhary</p>
+                                    <p class="text-sm text-grey">M.B.B.S, M.S.</p>
+                                    <span class="text-sm text-grey">Eye Surgeon</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="img-doctor-card">
+                                <div class="header">
+                                    <img style="width: inherit;" src="assets/img/default-user.png" alt="">
+                                </div>
+                                <div class="body">
+                                    <p class="text-xl mb-0">Dr. N. Kumar</p>
+                                    <p class="text-sm text-grey">M.B.B.S, M.S.</p>
+                                    <span class="text-sm text-grey">Dermatologist</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="img-doctor-card">
+                                <div class="header">
+                                    <img style="width: inherit;" src="assets/img/default-user.png" alt="">
+                                </div>
+                                <div class="body">
+                                    <p class="text-xl mb-0">Dr. Durgesh Srivastava</p>
+                                    <p class="text-sm text-grey">M.B.B.S, M.D., D.M.</p>
+                                    <span class="text-sm text-grey">Rheumatologist</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="img-doctor-card">
+                                <div class="header">
+                                    <img style="width: inherit;" src="assets/img/default-user.png" alt="">
+                                </div>
+                                <div class="body">
+                                    <p class="text-xl mb-0">Dr. Manish Kumar Singh</p>
+                                    <p class="text-sm text-grey">M.B.B.S, M.S.</p>
+                                    <span class="text-sm text-grey"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="img-doctor-card">
+                                <div class="header">
+                                    <img style="width: inherit;" src="assets/img/default-user.png" alt="">
+                                </div>
+                                <div class="body">
+                                    <p class="text-xl mb-0">Dr. Wasim Khan</p>
+                                    <span class="text-sm text-grey">S.D.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="img-doctor-card">
+                                <div class="header">
+                                    <img style="width: inherit;" src="assets/img/default-user.png" alt="">
+                                </div>
+                                <div class="body">
+                                    <p class="text-xl mb-0">Dr. Zahoor Khan</p>
+                                    <span class="text-sm text-grey">General Physician</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="img-doctor-card">
+                                <div class="header">
+                                    <img style="width: inherit;" src="assets/img/default-user.png" alt="">
+                                </div>
+                                <div class="body">
+                                    <p class="text-xl mb-0">Dr. S. Rehman Khan</p>
+                                    <span class="text-sm text-grey">General Physician</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselDoctors" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselDoctors" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="container">
+            <h1 class="text-center mb-5">Center of Excellence</h1>
+
+            <div class="container">
+                <div id="carouselDoctorsCenterOfExcellence" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators" style="bottom: -20px !important">
+                        <li data-target="#carouselDoctorsCenterOfExcellence" data-slide-to="0" class="active bg-black">
+                        </li>
+                        <li data-target="#carouselDoctorsCenterOfExcellence" data-slide-to="1" class="bg-black"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-offset-2 col-md-2">
+                                    <div class="img-disease-card">
+                                        <div class="header">
+                                            <img style="width: inherit;"
+                                                src="assets/img/diseases/Neurological_Disorders.jpg" alt="">
+                                        </div>
+                                        <div class="body">
+                                            <p class="text-xl mb-0">Neurological Disorders</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="img-disease-card">
+                                        <div class="header">
+                                            <img style="width: inherit;" src="assets/img/diseases/Kidney_Stone.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="body">
+                                            <p class="text-xl mb-0">Kidney Stone</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="img-disease-card">
+                                        <div class="header">
+                                            <img style="width: inherit;" src="assets/img/diseases/disease.jpg" alt="">
+                                        </div>
+                                        <div class="body">
+                                            <p class="text-xl mb-0">Laparoscopic Surgery</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="img-disease-card">
+                                        <div class="header">
+                                            <img style="width: inherit;" src="assets/img/diseases/disease.jpg" alt="">
+                                        </div>
+                                        <div class="body">
+                                            <p class="text-xl mb-0">Normal & Cesarean Delivery</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2"></div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-2">
+                                    <div class="img-disease-card">
+                                        <div class="header">
+                                            <img style="width: inherit;" src="assets/img/diseases/disease.jpg" alt="">
+                                        </div>
+                                        <div class="body">
+                                            <p class="text-xl mb-0">Hydrocele and Hernia</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="img-disease-card">
+                                        <div class="header">
+                                            <img style="width: inherit;" src="assets/img/diseases/disease.jpg" alt="">
+                                        </div>
+                                        <div class="body">
+                                            <p class="text-xl mb-0">Child Specialist</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="img-disease-card">
+                                        <div class="header">
+                                            <img style="width: inherit;" src="assets/img/diseases/disease.jpg" alt="">
+                                        </div>
+                                        <div class="body">
+                                            <p class="text-xl mb-0">Orthopedic Surgeries</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="img-disease-card">
+                                        <div class="header">
+                                            <img style="width: inherit;" src="assets/img/diseases/disease.jpg" alt="">
+                                        </div>
+                                        <div class="body">
+                                            <p class="text-xl mb-0">Eye Surgeries</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselDoctorsCenterOfExcellence" role="button"
+                        data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselDoctorsCenterOfExcellence" role="button"
+                        data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer id="contactus">
+        <div class="container">
+            <div class="row px-md-3">
+                <div class="col-sm-6 col-lg-3 py-3">
+                    <h5>Contact</h5>
+                    <p class="footer-link mt-2">351 Willow Street Franklin, MA 02038</p>
+                    <a href="#" class="footer-link">701-573-7582</a>
+                    <a href="#" class="footer-link">healthcare@temporary.net</a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<button id="chat" class="fab-btn"><a href="https://api.whatsapp.com/send?phone=918433977769&text="></a><i
+        class="fa fa-whatsapp" aria-hidden="true"></i></button>
+
+</html>
